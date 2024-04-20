@@ -4,9 +4,8 @@ import replicate
 import os
 import time
 
-api = os.getenv["REPLICATE_API_TOKEN"] = "r8_086eHtPZ2X9yKdtH3x52wjuBkhRPVcp2oFmqS"
 
-palm.configure(api_key=api)
+palm.configure(api_key="r8_086eHtPZ2X9yKdtH3x52wjuBkhRPVcp2oFmqS")
 model = {
     "model": "models/chat-bison-001",
 }
